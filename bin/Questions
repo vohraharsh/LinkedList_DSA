@@ -1,0 +1,137 @@
+1. Reverse a Linked List
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Output: 5 -> 4 -> 3 -> 2 -> 1
+Test Case 2:
+
+Input: 1 -> 2
+Expected Output: 2 -> 1
+Test Case 3:
+
+Input: None (empty list)
+Expected Output: None
+2. Detect a Cycle in a Linked List (Floyd’s Cycle-Finding Algorithm)
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5 -> 3 (cycle back to node 3)
+Expected Output: True
+Test Case 2:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Output: False
+Test Case 3:
+
+Input: 1 -> 1 (self-loop)
+Expected Output: True
+3. Find the Middle Element of a Linked List
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Output: 3
+Test Case 2:
+
+Input: 1 -> 2 -> 3 -> 4
+Expected Output: 2
+Test Case 3:
+
+Input: 1
+Expected Output: 1
+4. Merge Two Sorted Linked Lists
+Test Case 1:
+
+Input 1: 1 -> 3 -> 5
+Input 2: 2 -> 4 -> 6
+Expected Output: 1 -> 2 -> 3 -> 4 -> 5 -> 6
+Test Case 2:
+
+Input 1: 1 -> 4 -> 7
+Input 2: 2 -> 5 -> 8
+Expected Output: 1 -> 2 -> 4 -> 5 -> 7 -> 8
+Test Case 3:
+
+Input 1: None
+Input 2: 1 -> 2 -> 3
+Expected Output: 1 -> 2 -> 3
+5. Delete a Node Given Only a Pointer to that Node
+Test Case 1:
+
+Input: Linked list: 1 -> 2 -> 3 -> 4 -> 5, node to delete: 3
+Expected Output: 1 -> 2 -> 4 -> 5
+Test Case 2:
+
+Input: Linked list: 1 -> 2 -> 3, node to delete: 1
+Expected Output: This is an edge case since the head node is given. This method usually does not delete the head.
+6. Remove Duplicates from a Sorted Linked List
+Test Case 1:
+
+Input: 1 -> 1 -> 2 -> 3 -> 3
+Expected Output: 1 -> 2 -> 3
+Test Case 2:
+
+Input: 1 -> 1 -> 1
+Expected Output: 1
+Test Case 3:
+
+Input: None
+Expected Output: None
+7. Find the Intersection Point of Two Linked Lists
+Test Case 1:
+
+Input 1: 1 -> 2 -> 3
+Input 2: 4 -> 5 -> 3 (intersect at node 3)
+Expected Output: 3
+Test Case 2:
+
+Input 1: 1 -> 2 -> 3
+Input 2: 4 -> 5 -> 6
+Expected Output: None (no intersection)
+8. Check if a Linked List is a Palindrome
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 2 -> 1
+Expected Output: True
+Test Case 2:
+
+Input: 1 -> 2 -> 2 -> 1
+Expected Output: True
+Test Case 3:
+
+Input: 1 -> 2 -> 3
+Expected Output: False
+9. Flatten a Multilevel Linked List
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 4, where 3 has a child 5 -> 6
+Expected Output: 1 -> 2 -> 3 -> 5 -> 6 -> 4
+10. Sort a Linked List Using Merge Sort
+Test Case 1:
+
+Input: 4 -> 2 -> 1 -> 3
+Expected Output: 1 -> 2 -> 3 -> 4
+Test Case 2:
+
+Input: 7 -> 3 -> 5 -> 2
+Expected Output: 2 -> 3 -> 5 -> 7
+11. Reverse a Linked List in Groups of K Nodes
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5 -> 6, K = 2
+Expected Output: 2 -> 1 -> 4 -> 3 -> 6 -> 5
+Test Case 2:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5, K = 3
+Expected Output: 3 -> 2 -> 1 -> 5 -> 4
+12. Find the Nth Node from the End of a Linked List
+Test Case 1:
+
+Input: 1 -> 2 -> 3 -> 4 -> 5, N = 2
+Expected Output: 4
+Test Case 2:
+
+Input: 1 -> 2 -> 3, N = 3
+Expected Output: 1
+Test Case 3:
+
+Input: 1, N = 1
+Expected Output: 1
